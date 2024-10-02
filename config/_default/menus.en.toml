@@ -10,47 +10,35 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+  name = "Code"
+  url  = "https://gitlab.com/sevncodes/sevn"
+  weight = 10
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Docs"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "SEVNpy"
+  parent = "Docs"
+  url = "https://sevn.readthedocs.io/en/latest/"
+  weight = 20
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+[[main]]
+  name = "Userguide"
+  parent = "Docs"
+  url = "https://gitlab.com/sevncodes/sevn/-/raw/SEVN/resources/SEVN_userguide.pdf?inline=false"
+  weight = 20
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
+[[main]]
+  name = "Papers"
+  weight = 30
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+  name = "Team"
+  weight = 40
 
 
 # -- Footer Menu --
