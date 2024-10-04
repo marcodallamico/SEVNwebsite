@@ -1,0 +1,8 @@
+{{ $icon := resources.Get "icons/article.svg" }}
+{{ if $icon }}
+  <span class="relative inline-block align-text-bottom icon">
+    <img src="{{ $icon.Permalink }}" style="width: 25px; height: 25px; vertical-align: middle; display: inline-block; pointer-events: none; margin-bottom: -2px;" />
+  </span>
+{{ else }}
+  {{ errorf `[BLOWFISH] Shortcode "icon" error in "%s": Resource "%s" not found. Check the path is correct or remove the shortcode.` .Page.Path "icons/article.svg" }}
+{{ end }}

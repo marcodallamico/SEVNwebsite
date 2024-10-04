@@ -9,6 +9,16 @@
     <managingEditor>giuliano.iorio.astro@gmail.com</managingEditor>
     <webMaster>giuliano.iorio.astro@gmail.com</webMaster>
     <copyright>© SEVN Team</copyright>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Papers</title>
+      <link>//localhost:1313/papers/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      <author>giuliano.iorio.astro@gmail.com</author>
+      <guid>//localhost:1313/papers/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
