@@ -1,8 +1,34 @@
  ---
 title: "Papers"
+description: "A comprehensive list of papers related to the SEVN code. If you have used SEVN in your work, please add to your citation list Iorio et al. (2023), which details the latest public release of SEVN."
 date: 2022-06-13T20:55:37+01:00
-
+draft: false
+showAuthor: true
+showAuthorBottom: true
+showDate : false
+showDateOnlyInArticle : false
+showDateUpdated : false
+showHeadingAnchors : false
+showPagination : false
+showReadingTime : false
+showTableOfContents : true
+showTaxonomies : false 
+showWordCount : false
+showSummary : false
+sharingLinks : false
+showEdit: false
+showViews: false
+showLikes: false
+layoutBackgroundHeaderSpace: false
 ---
+
+<span style="color: #FFA500;">
+  A comprehensive list of papers related to the <a style="color: white; font-weight: bold;">SEVN</a> code. If you have used <a style="color: white; font-weight: bold;">SEVN</a> in your work, please add to your citation list 
+  <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524..426I/abstract" style="color: white; font-weight: bold;">Iorio et al. (2023)</a>, which details the latest public release of the code.
+</span>
+
+
+
 
 <div style="width: 100%;">
 
